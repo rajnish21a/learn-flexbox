@@ -1,14 +1,38 @@
 /* Your code goes here */
 
 
-.container{
+/* .container{
   display: flex;
   flex-direction: row;
-  float: right;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200px;
   border: 1px solid #fff;
-  width: 100%;
+} */
+
+/* .container div{
+  float: right;
+} */
+
+.grid{
+  display: flex;
 }
 
-.container div{
-  float: right;
+.cell{
+  flex: 1;
+  margin: 10px 0 10px 10px;
+  background: #fff;
+  padding: 0;
 }
+
+.gutters{
+  margin: -10px 0 0 -10px;
+}
+
+.large{
+  flex-grow: 3;
+}
+
+
+
+
